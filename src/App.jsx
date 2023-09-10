@@ -17,7 +17,7 @@ function App() {
         <nav class="bg-white border-gray-200 mb-4 dark:bg-ars w-full">
           <div class="flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center">
-                <img src="./public/images/arsenal-logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
+                <img src="/images/arsenal-logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Home</span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -62,19 +62,19 @@ function App() {
                   
                 >
                   <SwiperSlide>
-                    <img src="./public/images/Bukayo.webp" alt="" className='carousel-img sm:ml-48 ml-16'/>
+                    <img src="/images/Bukayo.webp" alt="" className='carousel-img sm:ml-48 ml-16'/>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="./public/images/declan-rice.avif" alt="" className='carousel-img sm:ml-48 ml-16'/>
+                    <img src="/images/declan-rice.avif" alt="" className='carousel-img sm:ml-48 ml-16'/>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="./public/images/martinelli.jpg" alt="" className='carousel-img sm:ml-48 ml-16'/>
+                    <img src="/images/martinelli.jpg" alt="" className='carousel-img sm:ml-48 ml-16'/>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="./public/images/odegaard-chest.webp" alt="" className='carousel-img sm:ml-48 ml-16'/>
+                    <img src="/images/odegaard-chest.webp" alt="" className='carousel-img sm:ml-48 ml-16'/>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="./public/images/saliba.jpg" alt="" className='carousel-img sm:ml-48 ml-16'/>
+                    <img src="/images/saliba.jpg" alt="" className='carousel-img sm:ml-48 ml-16'/>
                   </SwiperSlide>
                 </Swiper>
               </div>
@@ -83,7 +83,7 @@ function App() {
             <div className='mt-16 w-4/5 hover: cursor-pointer transition-all hover:opacity-50'>
               <a href="https://www.arsenal.com/news/turner-makes-permanent-move-nottingham-forest" target='_blank'>
                   <div className='flex sm:flex-row flex-col border-ars border w-5/5 pr-8 sm:p-0 p-4'>
-                    <img src="./public/images/Turner.webp" alt="" className='sm:w-3/4 w-5/5 mr-4'/>
+                    <img src="/images/Turner.webp" alt="" className='sm:w-3/4 w-5/5 mr-4'/>
                     <div className='flex flex-col justify-center'>
                         <h1 className='sm:text-2xl font-extrabold'>Turner makes permanent move to Nottingham</h1>
                         <p>The USA international departs for the City Ground on a permanent transfer having joined us in June 2022</p>
@@ -97,7 +97,7 @@ function App() {
               <h3 className='uppercase bg-red-600 w-5/5 p-4 mb-8'>arsenal 1-1 man city [4-1 pens]</h3>
               <a href="https://www.arsenal.com/news/access-all-areas-wembley-we-win-shield"target='_blank' className='hover:opacity-50 transition-all'>
                 <div className='flex sm:flex-row flex-col border-ars border w-5/5 pr-8 sm:p-0 p-4'>
-                  <img src="./public/images/community-shield.webp" alt="" className='sm:w-3/4 w-5/5 mr-4 object-cover'/>
+                  <img src="/images/community-shield.webp" alt="" className='sm:w-3/4 w-5/5 mr-4 object-cover'/>
                   <div className='flex flex-col justify-center'>
                       <h1 className='sm:text-2xl font-extrabold text-red-600'>Access All Areas at Wembley as we  win the Shield!</h1>
                       <p>Take a look at everything that went on behind the scenes on Sunday as we beat Manchester City to wib the Community Shield</p>
@@ -112,7 +112,7 @@ function App() {
                 {/* First Item */}
                 <div class="bg-white border mb-4 w-72 mr-16 border-gray-200 mb-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="./public/images/Arteta.webp" alt="" />
+                        <img class="rounded-t-lg" src="/images/Arteta.webp" alt="" />
                     </a>
                     <div class="p-5">
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Arsenal told Mikel Arteta has signed  his own Robin van Persie after Gabriel Jesus injury.</p>
@@ -127,7 +127,7 @@ function App() {
                 {/* Second Item */}
                 <div class="w-72 bg-white border mr-16 border-gray-200 mb-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="./public/images/balogun.webp" alt="" />
+                        <img class="rounded-t-lg" src="/images/balogun.webp" alt="" />
                     </a>
                     <div class="p-5">
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Folarin Balogun Arsenal transfer latest: Agreement reached, Monaco bid, Inter Milan stance.</p>
@@ -142,7 +142,7 @@ function App() {
                 {/* Third Item */}
                 <div class="w-72 bg-white border border-gray-200 mb-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="./public/images/ramsdale.webp" alt="" />
+                        <img class="rounded-t-lg" src="/images/ramsdale.webp" alt="" />
                     </a>
                     <div class="p-5">
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Aaron Ramsdale issues four-word response to David Raya transfer talk after Arsenal agreement</p>
@@ -161,7 +161,7 @@ function App() {
                 {/* First Item */}
                 <div class="bg-white border w-72 mr-16 border-gray-200 mb-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="./public/images/raya.jpg" alt="" />
+                        <img class="rounded-t-lg" src="/images/raya.jpg" alt="" />
                     </a>
                     <div class="p-5">
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Arsenal agree £25m deal – medical within 36 hours</p>
@@ -176,7 +176,7 @@ function App() {
                 {/* Second Item */}
                 <div class="w-72 bg-white border mr-16 border-gray-200 mb-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="./public/images/rice.avif" alt="" />
+                        <img class="rounded-t-lg" src="/images/rice.avif" alt="" />
                     </a>
                     <div class="p-5">
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Arsenal showed belief against Manchester City - buoyed by new signings</p>
@@ -191,7 +191,7 @@ function App() {
                 {/* Third Item */}
                 <div class="w-72 bg-white border border-gray-200 mb-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="https://theathletic.com/4758722/2023/08/09/arsenal-second-first-premier-league/">
-                        <img class="rounded-t-lg w-full" src="./public/images/arsenal.avif" alt="" />
+                        <img class="rounded-t-lg w-full" src="/images/arsenal.avif" alt="" />
                     </a>
                     <div class="p-5">
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">What must Arsenal do to go from runners-up to Premier League title winners?</p>
