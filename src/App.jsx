@@ -14,7 +14,7 @@ function App() {
 
   return (
     <> 
-        <nav class="bg-white border-gray-200 dark:bg-ars w-full">
+        <nav class="bg-white border-gray-200 mb-4 dark:bg-ars w-full">
           <div class="flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center">
                 <img src="./public/images/arsenal-logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
@@ -50,7 +50,7 @@ function App() {
 
         <div className='flex flex-col items-center'>
             <h1 className='text-5xl font-extrabold m-8 text-ars'>Common You Gooners</h1>
-            <div className='w-full mt-4'>
+            <div className='sm:w-full w-4/5 mt-4'>
                 <Swiper
                         modules={[Navigation, Pagination]}
                         spaceBetween={20}
@@ -62,30 +62,30 @@ function App() {
                   
                 >
                   <SwiperSlide>
-                    <img src="./public/images/Bukayo.webp" alt="" className='carousel-img ml-48 '/>
+                    <img src="./public/images/Bukayo.webp" alt="" className='carousel-img sm:ml-48 ml-16'/>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="./public/images/declan-rice.avif" alt="" className='carousel-img ml-48'/>
+                    <img src="./public/images/declan-rice.avif" alt="" className='carousel-img sm:ml-48 ml-16'/>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="./public/images/martinelli.jpg" alt="" className='carousel-img ml-48'/>
+                    <img src="./public/images/martinelli.jpg" alt="" className='carousel-img sm:ml-48 ml-16'/>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="./public/images/odegaard-chest.webp" alt="" className='carousel-img ml-48'/>
+                    <img src="./public/images/odegaard-chest.webp" alt="" className='carousel-img sm:ml-48 ml-16'/>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="./public/images/saliba.jpg" alt="" className='carousel-img ml-48'/>
+                    <img src="./public/images/saliba.jpg" alt="" className='carousel-img sm:ml-48 ml-16'/>
                   </SwiperSlide>
                 </Swiper>
               </div>
 
-            <h1 className='text-3xl mt-16 mb-8 capitalize underline'>Latest News about your favorite club</h1>
+            <h1 className='sm:text-3xl text-2xl mt-16 mb-8 capitalize underline'>Latest News about your favorite club</h1>
             <div className='mt-16 w-4/5 hover: cursor-pointer transition-all hover:opacity-50'>
               <a href="https://www.arsenal.com/news/turner-makes-permanent-move-nottingham-forest" target='_blank'>
-                  <div className='flex border-ars border w-5/5 pr-8'>
-                    <img src="./public/images/Turner.webp" alt="" className='w-3/4 mr-4'/>
+                  <div className='flex sm:flex-row flex-col border-ars border w-5/5 pr-8 sm:p-0 p-4'>
+                    <img src="./public/images/Turner.webp" alt="" className='sm:w-3/4 w-5/5 mr-4'/>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-2xl font-extrabold'>Turner makes permanent move to Nottingham</h1>
+                        <h1 className='sm:text-2xl font-extrabold'>Turner makes permanent move to Nottingham</h1>
                         <p>The USA international departs for the City Ground on a permanent transfer having joined us in June 2022</p>
                     </div>
                 </div>
@@ -96,10 +96,10 @@ function App() {
             <div className='mt-16 w-4/5 hover: cursor-pointer'>
               <h3 className='uppercase bg-red-600 w-5/5 p-4 mb-8'>arsenal 1-1 man city [4-1 pens]</h3>
               <a href="https://www.arsenal.com/news/access-all-areas-wembley-we-win-shield"target='_blank' className='hover:opacity-50 transition-all'>
-                <div className='flex border-ars border w-5/5 pr-8'>
-                  <img src="./public/images/community-shield.webp" alt="" className='w-3/4 mr-4 object-cover'/>
+                <div className='flex sm:flex-row flex-col border-ars border w-5/5 pr-8 sm:p-0 p-4'>
+                  <img src="./public/images/community-shield.webp" alt="" className='sm:w-3/4 w-5/5 mr-4 object-cover'/>
                   <div className='flex flex-col justify-center'>
-                      <h1 className='text-2xl font-extrabold text-red-600'>Access All Areas at Wembley as we  win the Shield!</h1>
+                      <h1 className='sm:text-2xl font-extrabold text-red-600'>Access All Areas at Wembley as we  win the Shield!</h1>
                       <p>Take a look at everything that went on behind the scenes on Sunday as we beat Manchester City to wib the Community Shield</p>
                   </div>
                 </div>
@@ -107,15 +107,15 @@ function App() {
             </div>
             {/* The News items */} 
             <h2 className='mt-32 text-2xl mb-16 underline'>More News</h2>
-            <div className='flex w-5/5'> 
+            <div className='flex sm:flex-row sm:ml-0 ml-16 flex-col w-5/5'> 
             {/* Start of first container */}
                 {/* First Item */}
-                <div class="bg-white border w-72 mr-16 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div class="bg-white border mb-4 w-72 mr-16 border-gray-200 mb-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img class="rounded-t-lg" src="./public/images/Arteta.webp" alt="" />
                     </a>
                     <div class="p-5">
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Arsenal told MIiel Arteta has signed  his own Robin van Persie after Gabriel Jesus injury.</p>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Arsenal told Mikel Arteta has signed  his own Robin van Persie after Gabriel Jesus injury.</p>
                         <a href="https://www.football.london/arsenal-fc/transfer-news/arsenal-arteta-robin-van-persie-27484526" target='_blank' class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             Read more
                             <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -125,7 +125,7 @@ function App() {
                     </div>
                 </div>
                 {/* Second Item */}
-                <div class="w-72 bg-white border mr-16 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div class="w-72 bg-white border mr-16 border-gray-200 mb-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img class="rounded-t-lg" src="./public/images/balogun.webp" alt="" />
                     </a>
@@ -140,7 +140,7 @@ function App() {
                     </div>
                 </div>
                 {/* Third Item */}
-                <div class="w-72 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div class="w-72 bg-white border border-gray-200 mb-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img class="rounded-t-lg" src="./public/images/ramsdale.webp" alt="" />
                     </a>
@@ -156,10 +156,10 @@ function App() {
                 </div>            
             </div> {/* End of first container*/}
 
-            <div className='flex w-5/5 mt-8'> 
+            <div className='flex w-5/5 mt-8 sm:flex-row flex-col'> 
             {/* Start of second container */}
                 {/* First Item */}
-                <div class="bg-white border w-72 mr-16 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div class="bg-white border w-72 mr-16 border-gray-200 mb-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img class="rounded-t-lg" src="./public/images/raya.jpg" alt="" />
                     </a>
@@ -174,7 +174,7 @@ function App() {
                     </div>
                 </div>
                 {/* Second Item */}
-                <div class="w-72 bg-white border mr-16 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div class="w-72 bg-white border mr-16 border-gray-200 mb-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img class="rounded-t-lg" src="./public/images/rice.avif" alt="" />
                     </a>
@@ -189,7 +189,7 @@ function App() {
                     </div>
                 </div>
                 {/* Third Item */}
-                <div class="w-72 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div class="w-72 bg-white border border-gray-200 mb-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="https://theathletic.com/4758722/2023/08/09/arsenal-second-first-premier-league/">
                         <img class="rounded-t-lg w-full" src="./public/images/arsenal.avif" alt="" />
                     </a>
